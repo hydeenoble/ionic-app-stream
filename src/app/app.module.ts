@@ -8,6 +8,7 @@ import { NewsPage } from "../pages/news/news";
 import { VideoPage } from "../pages/video/video";
 import { MusicPage } from "../pages/music/music";
 import { TabsPage } from '../pages/tabs/tabs';
+import { IntroPage } from "../pages/intro/intro";
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -18,7 +19,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     NewsPage,
     VideoPage,
     MusicPage,
-    TabsPage
+    TabsPage,
+    IntroPage
   ],
   imports: [
     BrowserModule,
@@ -30,7 +32,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     NewsPage,
     VideoPage,
     MusicPage,
-    TabsPage
+    TabsPage,
+    IntroPage
   ],
   providers: [
     StatusBar,
