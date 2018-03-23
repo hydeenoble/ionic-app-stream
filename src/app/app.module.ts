@@ -15,12 +15,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 @NgModule({
   declarations: [
-    MyApp,
-    NewsPage,
-    VideoPage,
-    MusicPage,
-    TabsPage,
-    IntroPage
+    MyApp
   ],
   imports: [
     BrowserModule,
@@ -28,12 +23,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    MyApp,
-    NewsPage,
-    VideoPage,
-    MusicPage,
-    TabsPage,
-    IntroPage
+    MyApp
   ],
   providers: [
     StatusBar,
