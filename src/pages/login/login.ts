@@ -22,4 +22,7 @@ export class LoginPage {
     console.log('ionViewDidLoad LoginPage');
   }
 
+  navigateToNextPage(page: string){
+    this.navCtrl.push(page)
+  }
 }

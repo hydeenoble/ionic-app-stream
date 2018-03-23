@@ -1,19 +1,29 @@
 import { Component } from '@angular/core';
+import { IonicPage} from 'ionic-angular';
 
-import { NewsPage } from "../news/news";
-import { VideoPage } from "../video/video";
-import { MusicPage } from "../music/music";
+/**
+ * Generated class for the TabsPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
 
+@IonicPage()
 @Component({
-  templateUrl: 'tabs.html'
+  selector: 'page-tabs',
+  templateUrl: 'tabs.html',
 })
 export class TabsPage {
 
-  tab1Root = VideoPage;
-  tab2Root = MusicPage;
-  tab3Root = NewsPage;
+
+  tab1Root: string;
+  tab2Root: string;
+  tab3Root: string;
 
   constructor() {
-
+    this.tab1Root = 'VideoPage';
+    this.tab2Root = 'MusicPage';
+    this.tab3Root = 'NewsPage';
   }
+
 }
