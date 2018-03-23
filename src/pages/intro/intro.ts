@@ -22,4 +22,8 @@ export class IntroPage {
     console.log('ionViewDidLoad IntroPage');
   }
 
+  navigateToNextPage(page: string){
+    this.navCtrl.push(page)
+  }
+
 }
