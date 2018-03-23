@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 /**
- * Generated class for the VideoPage page.
+ * Generated class for the VimeoPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -10,23 +10,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-video',
-  templateUrl: 'video.html',
+  selector: 'page-vimeo',
+  templateUrl: 'vimeo.html',
 })
-export class VideoPage {
+export class VimeoPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad VideoPage');
+    console.log('ionViewDidLoad VimeoPage');
   }
 
-  playVemio(){
-    this.navCtrl.push('VimeoPage')
-  }
-
-  playYoutube(){
-    this.navCtrl.push('YoutubePage')
-  }
 }
